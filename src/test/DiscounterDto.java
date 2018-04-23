@@ -55,7 +55,7 @@ public class DiscounterDto implements Discountable {
 
     @Override
     public long getDiscountAmt(long originAmt) {
-
+        System.out.println("hotfix1 수정");
 /*
         if ("RATE".equals(dtype)) {
             return originAmt * rate / 100;
