@@ -49,6 +49,10 @@ public class DiscounterDto implements Discountable {
         this.name = name;
     }
 
+    public void masterMethod () {
+        System.out.println(1);
+    }
+
     @Override
     public long getDiscountAmt(long originAmt) {
 /*
