@@ -5,7 +5,7 @@ public enum DiscountType {
     RATE {
         @Override
         long getDiscountAmt(DiscounterDto discounterDto, long originAmt) {
-            return 0;
+            return 1;
         }
     },
     AMT {
