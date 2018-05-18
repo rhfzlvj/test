@@ -5,6 +5,7 @@ public enum DiscountType {
     RATE {
         @Override
         long getDiscountAmt(DiscounterDto discounterDto, long originAmt) {
+            System.out.println("123138190");
             return 0;
         }
     },
